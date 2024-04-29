@@ -12,5 +12,7 @@ class ventanaM(tk.Tk):
         
         boton = tk.Button(self, text="confirmar")
         boton.pack()
+        segEtiqueta = tk.Label(self,text="Fin")
+        segEtiqueta.pack()
         
         
