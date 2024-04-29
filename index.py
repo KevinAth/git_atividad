@@ -7,4 +7,9 @@ class ventanaM(tk.Tk):
         self.geometry("300x300")
         etiqueta = tk.Label(self,text="Hola mundo")
         etiqueta.pack()
+        entrada = tk.Entry(self)
+        entrada.pack()
+        
+        boton = tk.Button(self, text="confirmar")
+        boton.pack()
         
